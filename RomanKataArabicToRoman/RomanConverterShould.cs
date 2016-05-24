@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RomanKataArabicToRoman
 {
-    public class Class1
+    public class RomanConverterShould
     {
     }
 }
