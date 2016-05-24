@@ -11,7 +11,14 @@ namespace RomanKataArabicToRoman
             var romanConverter = new RomanConverter();
             string romanSymbol = romanConverter.ArabicToRoman(1);
             Check.That(romanSymbol).IsEqualTo(1);
+        }
+    }
 
+    public class RomanConverter
+    {
+        public string ArabicToRoman(int arabicValue)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
