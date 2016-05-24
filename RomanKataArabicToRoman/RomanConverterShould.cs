@@ -10,7 +10,7 @@ namespace RomanKataArabicToRoman
         {
             var romanConverter = new RomanConverter();
             string romanSymbol = romanConverter.ArabicToRoman(1);
-            Check.That(romanSymbol).IsEqualTo(1);
+            Check.That(romanSymbol).IsEqualTo("I");
         }
     }
 
@@ -18,7 +18,7 @@ namespace RomanKataArabicToRoman
     {
         public string ArabicToRoman(int arabicValue)
         {
-            throw new System.NotImplementedException();
+            return "I";
         }
     }
 }
